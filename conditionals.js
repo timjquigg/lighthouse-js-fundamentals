@@ -25,3 +25,13 @@ if (isCitizen && age > 18) {
 if (temperature < -40 || temperature > 40) {
   console.log("Maybe going outside isn't such a great idea…");
 }
+
+const whichSchool = (age) => {
+  if (age < 13) {
+    return "Elementary School";
+  } else if (age >= 13 && age <= 18) {
+    return "Secondary School";
+  } else {
+    return "Lighthouse Labs";
+  }
+};
